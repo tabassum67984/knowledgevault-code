@@ -1,0 +1,56 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.logo h2{
+    font-size: 50px;
+    font-weight: 800;
+
+}
+.color-green{
+    color: #FFFFFF;
+}
+
+.btn{
+    background-color: green;
+    border: none;
+    padding: 17px 34px;
+    border-radius: 6px;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+
+}
+
+header {
+    padding-top: 10px;
+}
+
+nav{
+    width: 75%;
+    max-width: 1800px;
+    border: 1px solid red;
+    margin: 0px autos;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    align-items: center;
+}
+nav .menu a{
+    font-size: 22px;
+    color: #474747;
+    text-decoration: none;
+}
